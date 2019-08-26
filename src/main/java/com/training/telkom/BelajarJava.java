@@ -1,5 +1,9 @@
 package com.training.telkom;
 
+import java.sql.Timestamp;
+import java.time.LocalDateTime;
+import java.time.ZoneOffset;
+
 public class BelajarJava {
 
     public static void main(String[] args) {
@@ -21,5 +25,11 @@ public class BelajarJava {
 
         String namaLengkap = "Dimas Maryanto";
         System.out.println("tapilkan nama lengkap " + namaLengkap);
+
+        Timestamp milisecond = new Timestamp(1566793407536l);
+        LocalDateTime date = milisecond.toLocalDateTime();
+        System.out.println("nilai dari milisecond to date " + date.toString());
+        LocalDateTime tanggalSekarang = LocalDateTime.now();
+        System.out.println("nilai tanggal sekarang = "+ tanggalSekarang.toEpochSecond(ZoneOffset.UTC));
     }
 }
