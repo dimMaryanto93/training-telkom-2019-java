@@ -10,5 +10,13 @@ public class BelajarJava {
                         bil1 +
                         ", nilai dari bil2 = " +
                         bil2);
+
+        char huruf = 'a';
+        Character hurufClass = 'A';
+        System.out.println(
+                "Nilai huruf = " +
+                        huruf +
+                        ", nilai hurufClass = " +
+                        hurufClass);
     }
 }
