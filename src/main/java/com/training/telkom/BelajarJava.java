@@ -18,5 +18,8 @@ public class BelajarJava {
                         huruf +
                         ", nilai hurufClass = " +
                         hurufClass);
+
+        String namaLengkap = "Dimas Maryanto";
+        System.out.println("tapilkan nama lengkap " + namaLengkap);
     }
 }
