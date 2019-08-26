@@ -4,7 +4,7 @@ public class BelajarJava {
 
     public static void main(String[] args) {
         byte bil1 = -128;
-        Integer bil2 = 0;
+        Byte bil2 = 0;
         System.out.println(
                 "nilai dari bil1 = " +
                         bil1 +
