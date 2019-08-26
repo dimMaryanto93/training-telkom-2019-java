@@ -23,13 +23,34 @@ public class BelajarJava {
                         ", nilai hurufClass = " +
                         hurufClass);
 
-        String namaLengkap = "Dimas Maryanto";
-        System.out.println("tapilkan nama lengkap " + namaLengkap);
 
         Timestamp milisecond = new Timestamp(1566793407536l);
         LocalDateTime date = milisecond.toLocalDateTime();
         System.out.println("nilai dari milisecond to date " + date.toString());
         LocalDateTime tanggalSekarang = LocalDateTime.now();
-        System.out.println("nilai tanggal sekarang = "+ tanggalSekarang.toEpochSecond(ZoneOffset.UTC));
+        System.out.println("nilai tanggal sekarang = " + tanggalSekarang.toEpochSecond(ZoneOffset.UTC));
+
+        String namaLengkap = "Dimas Maryanto";
+        System.out.println("tapilkan nama lengkap " + namaLengkap);
+
+        if (namaLengkap.equalsIgnoreCase("dimas maryanto")) {
+            System.out.println("equals ignore case");
+        }
+
+        if (namaLengkap.equals("dimas maryanto")) {
+            System.out.println("equals");
+        }
+
+        switch (namaLengkap) {
+            case "Dimas Maryanto":
+                System.out.println("b");
+                break;
+            case "dimas maryanto":
+                System.out.println("c");
+                break;
+            case "a":
+                System.out.println("a");
+                break;
+        }
     }
 }
