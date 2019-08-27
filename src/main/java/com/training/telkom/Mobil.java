@@ -6,4 +6,6 @@ public class Mobil extends Kendaraan {
         roda = 4;
         return roda;
     }
+
+
 }
