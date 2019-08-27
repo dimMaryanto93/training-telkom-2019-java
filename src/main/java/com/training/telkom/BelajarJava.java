@@ -52,5 +52,19 @@ public class BelajarJava {
                 System.out.println("a");
                 break;
         }
+
+//    i++ =>  i = i + 1;
+
+        /**
+         * komentar multi baris
+         * alskdfjlkdsajfadsf
+         * asfdklsadjfklasdf
+         * asdflkjasdflkjdsf
+         */
+
+        // [0][1][][][][][][][][][10]
+        for (int i = 0; i <= 10; i++) {
+            System.out.println("ini perlulangan ke " + i);
+        }
     }
 }
