@@ -6,6 +6,9 @@ public class BelajarJava {
         String stringValue = new String("asldfkjdsfksdf");
         BelajarJava variable = new BelajarJava();
         variable.ping();
+
+        Integer hitungLuasPersegi = variable.luasPersegi(10, 20);
+        System.out.println("luas persegi panjang " + hitungLuasPersegi);
     }
 
     public void ping() {
