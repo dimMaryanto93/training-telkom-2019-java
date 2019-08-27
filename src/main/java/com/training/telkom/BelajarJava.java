@@ -64,7 +64,19 @@ public class BelajarJava {
 
         // [0][1][][][][][][][][][10]
         for (int i = 0; i <= 10; i++) {
-            System.out.println("ini perlulangan ke " + i);
+//            System.out.println("ini perlulangan ke " + i);
+        }
+
+        int i = 0;
+        do {
+            i++;
+//            System.out.println("ini perulangan ke " + i);
+        } while (i <= 10);
+
+        int y = 0;
+        while (y < 10) {
+            y++;
+//            System.out.println("ini perulangan ke " + y);
         }
     }
 }
